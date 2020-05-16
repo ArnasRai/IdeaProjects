@@ -5,6 +5,7 @@ public class Antras {
         if (5 > 2 && 5 > 3) {
             System.out.println("a didziausias");
             System.out.println("a reiksme: " + 1);
+            System.out.println("a reiksme: " + 2223);
 
 
         }

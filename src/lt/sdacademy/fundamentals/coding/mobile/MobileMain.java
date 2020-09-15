@@ -15,6 +15,7 @@ public class MobileMain {
        mobiles.add(mobile1);
        mobiles.add(mobile2);
        mobiles.add(mobile3);
+       mobiles.add(mobile3);
 
        Mobile mostExpensive = getMostExpensive(mobiles);
         System.out.println(mostExpensive);

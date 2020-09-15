@@ -7,9 +7,9 @@ import java.io.IOException;
 public class BufferedReaderExampleMain {
     public static void main(String[] args) {
 
-        String dataPath = "C:\\Users\\Arnas\\IdeaProjects\\IntroProject\\src\\lt\\sdacademy\\fundamentals\\file_read\\bufferedreader\\Duomenys.txt";
-
-        try(BufferedReader br = new BufferedReader(new FileReader(dataPath))) {
+        String dataiPath = "C:\\Users\\Arnas\\IdeaProjects\\IntroProject\\src\\lt\\sdacademy\\fundamentals\\file_read\\bufferedreader\\Duomenys.txt";
+        String dataiPath2 = "C:\\Users\\Arnas\\IdeaProjects\\IntroProject\\src\\lt\\sdacademy\\fundamentals\\file_read\\bufferedreader\\lol.txt";
+        try(BufferedReader br = new BufferedReader(new FileReader(dataiPath2))) {
 
 
        //this is the best method

@@ -8,10 +8,7 @@ public class Car {
     boolean isRunAndDrive;
 
 
-    public Car(String model,
-               double engine,
-               int numberOfDoors,
-               Boolean isRunAndDrive) {
+    public Car(String model, double engine, int numberOfDoors, Boolean isRunAndDrive) {
         this.model = model;
         this.engine = engine;
         this.numberOfDoors = numberOfDoors;

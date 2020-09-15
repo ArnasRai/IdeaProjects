@@ -14,8 +14,8 @@ public class Bicycle {
 
     public String toString() {
         return "Bicycle{" +
-                "gear=" + gear +
-                "maxSpeed=" + maxSpeed +
+                "gear = " + gear +
+                " maxSpeed = " + maxSpeed +
                 "}";
 
     }

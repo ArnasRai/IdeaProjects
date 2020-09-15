@@ -1,6 +1,6 @@
 package lt.sdacademy.fundamentals.input_output.basic_output;
 
-public class Example1 {
+public class TekstoTvark {
     public static void main(String[] args) {
         System.out.println("spausdina ir nukelia zymekli");
         System.out.println("spausdina, bet zymeklis lieka");
@@ -12,10 +12,10 @@ public class Example1 {
         int number = 10;
         System.out.printf("..arba skaiciu: %d \n", number);  //    \n sukuria tarpa tekste(eilute) (d reiskia decimal)
 
-        double floatNumber = 12.0922;
-        System.out.printf("arba apvalint %.2f \n", floatNumber); // 2 reiskia, apvalint 2 skaicius po kablelio. kitoj % parasius pusej apvalins sveikus
+        double floatNumber = 1222.0922;
+        System.out.printf("arba apvalint  %.2f \n", floatNumber); // 2 reiskia, apvalint 2 skaicius po kablelio. kitoj % parasius pusej apvalins sveikus
 
         String otherSentence = "dinamiskai";
-        System.out.printf("..arba viska kartu: %d %.2f, %s \n", number, floatNumber, otherSentence);
+        System.out.printf("..arba viska kartu: %d %.3f, %s \n", number, floatNumber, otherSentence);
     }
 }

@@ -9,7 +9,7 @@ public class bin {
         System.out.printf("arba apvalint   %.2f \n", floatNumber); // 2 reiskia, apvalint 2 skaicius po kablelio. kitoj % pusej parasius apvalins sveikus
         if (x == 6)
         System.out.println("lol");
-            else
+            else                          // 2 reiskia, apvalint 2 skaicius po kablelio. kitoj % pusej parasius apvalins sveikus
         System.out.println("lol2");
 
     }

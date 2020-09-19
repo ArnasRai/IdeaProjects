@@ -24,5 +24,7 @@ public class StudyProgramEntity extends AbstractEntity {
     public void setModules(List<ModuleEntity> modules) {
         this.modules = modules;
     }
+
+    //hello
 }
 

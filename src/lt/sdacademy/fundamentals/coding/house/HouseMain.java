@@ -1,6 +1,6 @@
 package lt.sdacademy.fundamentals.coding.house;
 
-import lt.sdacademy.fundamentals.coding.mobile.Mobile;
+
 
 import java.util.Arrays;
 import java.util.List;

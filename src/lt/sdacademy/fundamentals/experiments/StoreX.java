@@ -1,11 +1,11 @@
 package lt.sdacademy.fundamentals.experiments;
 
-public class Store {
+public class StoreX {
     private String apples = "apples";
     private String banana = "banana";
     private double price = 0;
 
-    public Store (String apples, String banana, double price){
+    public StoreX(String apples, String banana, double price){
                     this.apples = apples;
                     this.banana = banana;
                     this.price = price;

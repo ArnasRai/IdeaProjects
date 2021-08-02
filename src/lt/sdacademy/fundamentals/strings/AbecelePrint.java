@@ -1,6 +1,6 @@
 package lt.sdacademy.fundamentals.strings;
 
-public class Example1 {
+public class AbecelePrint {
     public static void main(String[] args) {
         String textWithoutStringPool = new String("tekstas"); //objektui yra isskirta atmintis heape, kuris nera perpanaudotas
 

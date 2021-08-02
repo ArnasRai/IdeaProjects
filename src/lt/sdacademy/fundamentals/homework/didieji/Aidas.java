@@ -12,12 +12,13 @@ public class Aidas {
         Scanner textScanner = new Scanner(System.in);
 
 
-        for (int i = 0; i < 100; i++) {
+        for (;;) {
             String answer = textScanner.nextLine();
 
             if (answer.equalsIgnoreCase("TOLIAU")) {
-                i = 0;
+
                 continue;
+
 
             }
 

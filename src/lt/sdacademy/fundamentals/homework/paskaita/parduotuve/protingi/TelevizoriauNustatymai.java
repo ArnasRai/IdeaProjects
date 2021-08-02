@@ -2,9 +2,9 @@ package lt.sdacademy.fundamentals.homework.paskaita.parduotuve.protingi;
 
 public class TelevizoriauNustatymai {
 
-    int ryskumas;   //daryt private
-    int garsas;
-    boolean nerodytporn;
+    private int ryskumas;   //daryt private
+    private int garsas;
+    private boolean nerodytporn;
 
 
     public TelevizoriauNustatymai(int ryskumas, int garsas, boolean nerodytporn) {

@@ -22,6 +22,7 @@ public class StoreMain {
             if (value == 0) {
                 break;
             }
+            else
             store.addToCart(value);
         }
         store.pay();

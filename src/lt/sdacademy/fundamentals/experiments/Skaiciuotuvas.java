@@ -21,19 +21,23 @@ public class Skaiciuotuvas {
             System.out.println("iveskite: + - / *");
             String action = scanner3.nextLine();
 
-            if (action.equals("+")) {
-                result = firstNumb + secondNumb;
-            } else if (action.equals("-"))
-                result = firstNumb - secondNumb;
-            {
-                if (action.equals("/")) {
+            switch (action) {
+                case "+":
+                    result = firstNumb + secondNumb;
+                    break;
+                case "-":
+                    result = firstNumb - secondNumb;
+                    break;
+                case "/":
                     result = firstNumb / secondNumb;
-                } else if (action.equals("*")) {
+                    break;
+                case "*":
                     result = firstNumb * secondNumb;
-                }
-
-
+                    break;
             }
+
+
+
 
 
             System.out.println("jusu atsakymas: " + result);

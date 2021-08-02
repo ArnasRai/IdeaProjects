@@ -1,6 +1,10 @@
 package lt.sdacademy.fundamentals.coding.sablonai;
 
 public class TrumpSablon {
+    public static void main(String[] args) {
+        int i;
+    }
+
 
 
 

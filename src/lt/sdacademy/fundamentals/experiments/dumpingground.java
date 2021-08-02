@@ -2,40 +2,21 @@ package lt.sdacademy.fundamentals.experiments;
 
 public class dumpingground {
     public static void main(String[] args) {
-        String star = "";
-        String tree = "";
-        String slash = "/";
-        String toy = "~";
-        String toy1 = "~";
-        String backslash = "\\";
-//        System.out.println("Pasirinkit egles dydi3-10");
-//        Scanner intScanner = new Scanner(System.in);
-//        int tarpas  = intScanner.nextInt();
-//        int kunas = tarpas - 2;
 
 
-        String middle = "  ";
-        String thevoid = " ";
-        String apacia = "_";
-        String[] test = {"*", " "};
-        int tarpas = 6;     //kaip toli nuo kaires prades
-        int kunas = 4;    //kokia "stora" egle bus
+        {
+            int n1 = 0, n2 = 1, n3, i, count = 10;
+            System.out.print(n1 + " " + n2);//printing 0 and 1
 
-
-        //for (int i =10; i >= 0; i=i-1)
-
-
-        // \ Backslash
-        // /Slash
-
-        //String repeated = new String(new char[tarpas]).replace("\0", thevoid);
-        for (int i = kunas; i >= 0; i = i - 1) {
-            String distance = new String(new char[tarpas]).replace("\0", thevoid);
-            String kunas1 = new String(new char[kunas]).replace("\0", apacia);
-            tarpas = tarpas - 1;
-            kunas = kunas + 2;
-            System.out.println(distance + slash + kunas1 + backslash + distance);
-
+            for (i = 2; i < count; i++)//loop starts from 2 because 0 and 1 are already printed
+            {
+                n3 = n1 + n2;
+                System.out.print(" " + n3);
+                n1 = n2;
+                n2 = n3;
+            }
         }
     }
 }
+
+// 0 + 2 (0 - 1)

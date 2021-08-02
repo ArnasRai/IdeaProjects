@@ -7,6 +7,7 @@ public class TekstoTvark {
 
         String sentence = "!!paprastas tekstas!!";
         System.out.printf("printf leidzia spausdinti pranesima %S\n", sentence); //s reiskia teksta
+
         //%s (jei s bus didzioji tekstas bus didelis)
 
         int number = 10;

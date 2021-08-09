@@ -19,6 +19,7 @@ public class Panel {
         label2.setBounds(40,20,80,25);
         panel.add(label);
         panel.add(label2);
+        //hello 33243425
 
     }
 }

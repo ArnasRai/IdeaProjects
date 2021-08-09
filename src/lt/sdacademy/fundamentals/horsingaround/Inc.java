@@ -18,10 +18,10 @@ public class Inc
                 new Employee(5, "C", 500),
                 new Employee(6, "C", 600)));
 
-        Map<Long, Employee> employeesMap = employeeList.stream()
-                .collect( Collectors.toMap(Employee::getId,
-                        Function.identity()) );
+  //      Map<Long, Employee> employeesMap = employeeList.stream()
+   //             .collect( Collectors.toMap(Employee::getId,
+   //                     Function.identity()) );
 
-        System.out.println(employeesMap);
+     //   System.out.println(employeesMap);
     }
 }
